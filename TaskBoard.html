@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY TASK BOARD</title>
+    <script src="TaskBoard.js" defer></script>
+    <link rel="stylesheet" href="TaskBoard.css">
+    <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title m-auto">My Task Board</h1>
+        <div class="up">
+            <form class="form">
+                <fieldset>
+                    <legend class="new ml-2 font-weight-bold">New Task</legend>
+                    <label class="labels ml-2" for="TaskStats">The task Stats:</label>
+                    <input class="inputs d-block ml-3 mb-1" type="text" name="TaskStats" required>
+                    <label class="labels ml-2" for="TaskDate">The task Date:</label>
+                    <input id="inputDate" class="inputs d-block ml-3 mb-1" type="date" name="TaskDate" min="today" required>
+                    <label class="labels ml-2" for="TaskHour">The task Hour:</label>
+                    <input class="inputs d-block ml-3 mb-1" type="time" name="TaskHour">
+                    <button class="add btn">Add</button>
+                    <button class="reset btn">Reset</button>
+                </fieldset>
+            </form>
+        </div>
+        <div class="main m-auto">
+        </div>
+    </div>
+</body>
+</html>
