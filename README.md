@@ -1,11 +1,11 @@
 # My Task Board
 A task board for daily missons.
 
-Made up of form and tasks board.
+theres a task form to fill tasks and a check box.
 
-There is limit to choose a task date from the past.
+you can not choose a task date that has already past, only future dates can be chosen.
 
-When refreshing the web the tasks saves by Local Storage.
+When refreshing the website the taskas will be saved by loacl storage.
 
 Front: HTML
 
